@@ -6,7 +6,7 @@
 /*   By: aferryat <aferryat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 21:15:35 by aferryat          #+#    #+#             */
-/*   Updated: 2025/01/25 03:36:29 by aferryat         ###   ########.fr       */
+/*   Updated: 2025/01/27 11:52:27 by aferryat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
  typedef struct s_list{
 	int		index;
 	int		val;
+	int		pos;
 	struct s_list *next;
  } s_list;
  #include <stdio.h>
@@ -28,7 +29,7 @@
  char	*ft_strdup(char *str, int max, int start);
  int	linked_list_size(s_list	*list);
  void	esy_sort(s_list **list);
- void	start_sort(s_list *stack_a, s_list *stack_b);
+void    start_sort(s_list **stack_a, s_list **stack_b);
  void	push(s_list **src, s_list **dst, char *s);
  void	reverse_rotate(s_list **list, char *s);
  void	rotate(s_list **list, char *s);
@@ -37,5 +38,5 @@
  char	**ft_splite(char *str);
  void	swap_two(s_list **list);
  void	swap_3(s_list **list);
- void algo(s_list *stack_a, s_list *stack_b);
+ void algo(s_list **stack_a, s_list **stack_b);
 #endif

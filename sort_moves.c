@@ -6,7 +6,7 @@
 /*   By: aferryat <aferryat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/25 01:21:47 by aferryat          #+#    #+#             */
-/*   Updated: 2025/01/26 12:20:33 by aferryat         ###   ########.fr       */
+/*   Updated: 2025/01/26 21:15:39 by aferryat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ void	reverse_rotate(s_list **list, char *s)
 {
 	s_list	*temp;
 	s_list	*pre;
-	
+
 	temp = *list;
 	while (temp->next != NULL)
 	{

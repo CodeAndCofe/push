@@ -6,7 +6,7 @@
 /*   By: aferryat <aferryat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 21:24:18 by aferryat          #+#    #+#             */
-/*   Updated: 2025/01/24 21:36:13 by aferryat         ###   ########.fr       */
+/*   Updated: 2025/01/27 11:15:08 by aferryat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,6 +64,7 @@ int	main(int arc, char **arv)
 	str = ft_string(arv);
 	if (str == NULL)
 		return (-1);
+	
 	manager(str);
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: aferryat <aferryat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/25 00:58:26 by aferryat          #+#    #+#             */
-/*   Updated: 2025/01/25 19:38:59 by aferryat         ###   ########.fr       */
+/*   Updated: 2025/01/26 20:38:45 by aferryat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,5 @@ int	linked_list_size(s_list	*list)
 		list = list->next;
 		i++;
 	}
-	return (i - 1);
+	return (i);
 }
